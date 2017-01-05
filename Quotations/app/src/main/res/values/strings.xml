@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quotations</string>
+    <string-array name="textQuotations">
+        <item>11111111111111</item>
+        <item>33333333333333</item>
+        <item>55555555555555</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">To Do List</string>
+    <string name="work_hint">Enter the workhere</string>
+    <string name="hour_edit">Hour</string>
+    <string name="minute_edit">Minute</string>
+    <string name="button_content">Add work</string>
+</resources>

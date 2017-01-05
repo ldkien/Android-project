@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="dk.readjson.MainActivity">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="18dp"
+        android:id="@+id/textViewMonhoc" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewMonhoc"
+        android:layout_alignRight="@+id/textViewMonhoc"
+        android:layout_alignEnd="@+id/textViewMonhoc"
+        android:layout_marginTop="17dp"
+        android:id="@+id/textViewNoihoc" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewNoihoc"
+        android:layout_alignRight="@+id/textViewNoihoc"
+        android:layout_alignEnd="@+id/textViewNoihoc"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textViewWebsite" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewWebsite"
+        android:layout_alignLeft="@+id/textViewWebsite"
+        android:layout_alignStart="@+id/textViewWebsite"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textViewFanpage" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textViewFanpage"
+        android:layout_alignLeft="@+id/textViewFanpage"
+        android:layout_alignStart="@+id/textViewFanpage"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="86dp"
+        android:id="@+id/lv" />
+
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dk.basicgridview.MainActivity">
+
+    <TextView
+        android:paddingTop="25dp"
+        android:textColor="#2796ff"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:text="Demo GridView Advance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <GridView
+        android:id="@+id/grAlbumImage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="auto_fit"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:gravity="center"
+        android:background="#ffffa06c"
+        android:layout_marginTop="20sp"></GridView>
+
+</LinearLayout>

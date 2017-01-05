@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="utf-8"?><!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto"--><!--xmlns:tools="http://schemas.android.com/tools"--><!--android:orientation="vertical"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:weightSum="6"--><!--app:layout_behavior="@string/appbar_scrolling_view_behavior"--><!--tools:context="dk.myandroid1.MainActivity"--><!--tools:showIn="@layout/activity_main">-->
+
+<!--<LinearLayout--><!--android:layout_weight="3"--><!--android:orientation="vertical"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent">-->
+
+<!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_weight="1"--><!--android:orientation="horizontal">-->
+
+<!--<Button--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_weight="25"--><!--android:background="@color/button1"--><!--android:text="@string/button1" />-->
+
+<!--<Button--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_weight="25"--><!--android:background="@color/button2"--><!--android:gravity="bottom"--><!--android:text="@string/button2" />--><!--</LinearLayout>-->
+
+<!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_weight="1"--><!--android:orientation="vertical">-->
+
+<!--<Button--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:background="@color/button2"--><!--android:text="@string/button1" />--><!--</LinearLayout>-->
+
+<!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_weight="1"--><!--android:orientation="horizontal">-->
+
+<!--<Button--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_weight="50"--><!--android:background="@color/button3"--><!--android:text="@string/button1" />-->
+
+<!--<Button--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_weight="50"--><!--android:background="@color/button1"--><!--android:text="@string/button1" />--><!--</LinearLayout>--><!--</LinearLayout>-->
+
+<!--<LinearLayout--><!--android:orientation="horizontal"--><!--android:layout_weight="3"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent">-->
+
+<!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_weight="1.5"--><!--android:orientation="vertical">--><!--<Button--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_weight="1"--><!--android:background="@color/button2"--><!--android:text="@string/button1" />--><!--<Button--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_weight="0.5"--><!--android:background="@color/button4"--><!--android:text="@string/button1" />--><!--</LinearLayout>-->
+
+<!--<LinearLayout--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:layout_weight="1.5"--><!--android:orientation="vertical">-->
+
+<!--<Button--><!--android:layout_weight="0.5"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:background="@color/button3"--><!--android:text="@string/button1" />--><!--<Button--><!--android:layout_weight="1"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:background="@color/button1"--><!--android:text="@string/button1" />--><!--</LinearLayout>-->
+
+
+<!--</LinearLayout>-->
+
+<!--</LinearLayout>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+    <!--tools:context="dk.myandroid1.MainActivity"-->
+    <!--tools:showIn="@layout/activity_main">-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerInParent="true">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:background="@color/button1"-->
+            <!--android:text="@string/button1" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/btn1"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:background="@color/button2"-->
+            <!--android:text="@string/button2" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn3"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/btn2"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:background="@color/button3"-->
+            <!--android:text="@string/button3" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn4"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/btn3"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:background="@color/button4"-->
+            <!--android:text="@string/button4" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn5"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/btn4"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:background="@color/button1"-->
+            <!--android:text="@string/button1" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn6"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/btn5"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:background="@color/button2"-->
+            <!--android:text="@string/button2" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn7"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@id/btn6"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:background="@color/button3"-->
+            <!--android:text="@string/button3" />-->
+    <!--</RelativeLayout>-->
+<!--</RelativeLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="dk.myandroid1.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#000000">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@color/button1"
+            android:text="@string/button1" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn1"
+            android:layout_toRightOf="@id/btn1"
+            android:layout_toEndOf="@id/btn1"
+            android:background="@color/button2"
+            android:text="@string/button2" />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn2"
+            android:layout_toRightOf="@id/btn2"
+            android:layout_toEndOf="@id/btn2"
+            android:background="@color/button3"
+            android:text="@string/button3" />
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn3"
+            android:layout_toRightOf="@id/btn3"
+            android:layout_toEndOf="@id/btn3"
+            android:background="@color/button4"
+            android:text="@string/button4" />
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn4"
+            android:layout_toLeftOf="@id/btn4"
+            android:background="@color/button1"
+            android:text="@string/button1" />
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn5"
+            android:layout_toLeftOf="@id/btn5"
+            android:background="@color/button2"
+            android:text="@string/button2" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn6"
+            android:layout_toLeftOf="@id/btn6"
+            android:background="@color/button3"
+            android:text="@string/button3" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+    <!--tools:context="dk.myandroid1.MainActivity"-->
+    <!--tools:showIn="@layout/activity_main" >-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:text="@string/button1"-->
+        <!--android:background="@color/button1" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:height="20dp"-->
+        <!--android:width="200dp"-->
+        <!--android:text="@string/button2"-->
+        <!--android:background="@color/button2"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true" />-->
+    <!--<Button-->
+        <!--android:id="@+id/btn3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/button3"-->
+        <!--android:background="@color/button3"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_marginLeft="40dp"/>-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btn4"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/button4"-->
+    <!--android:background="@color/button4"-->
+    <!--android:layout_alignTop="@+id/btn3"-->
+    <!--android:layout_toRightOf="@+id/btn3"-->
+    <!--android:layout_toEndOf="@+id/btn3"-->
+    <!--android:layout_marginLeft="30dp"/>-->
+    <!--<Button-->
+        <!--android:id="@+id/btn5"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/button1"-->
+        <!--android:background="@color/button1"-->
+        <!--android:layout_alignTop="@+id/btn4"-->
+        <!--android:layout_toRightOf="@+id/btn4"-->
+        <!--android:layout_toEndOf="@+id/btn4"-->
+        <!--android:layout_marginLeft="30dp"/>-->
+<!--</RelativeLayout>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+    <!--tools:context="dk.myandroid1.MainActivity"-->
+    <!--tools:showIn="@layout/activity_main" >-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn1"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/button1"-->
+        <!--android:background="@color/button1" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/button2"-->
+        <!--android:background="@color/button2"-->
+        <!--android:layout_alignParentRight="true" />-->
+    <!--<Button-->
+        <!--android:id="@+id/btn3"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/button3"-->
+        <!--android:background="@color/button3"-->
+        <!--android:layout_alignParentBottom="true" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btn4"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/button4"-->
+        <!--android:background="@color/button4"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true" />-->
+    <!--<Button-->
+        <!--android:id="@+id/btn5"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/button1"-->
+        <!--android:background="@color/button1"-->
+        <!--android:layout_centerInParent="true" />-->
+    <!--<Button-->
+        <!--android:id="@+id/btn6"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/button1"-->
+        <!--android:background="@color/button2"-->
+        <!--android:layout_above="@id/btn5"-->
+        <!--android:layout_toRightOf="@id/btn5"-->
+        <!--android:layout_toEndOf="@id/btn5" />-->
+    <!--<Button-->
+        <!--android:id="@+id/btn7"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/button1"-->
+        <!--android:background="@color/button3"-->
+        <!--android:layout_above="@id/btn5"-->
+        <!--android:layout_toLeftOf="@id/btn5" />-->
+    <!--<Button-->
+    <!--android:id="@+id/btn8"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/button1"-->
+    <!--android:background="@color/button4"-->
+    <!--android:layout_below="@id/btn5"-->
+    <!--android:layout_toLeftOf="@id/btn5" />-->
+    <!--<Button-->
+        <!--android:id="@+id/btn9"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/button2"-->
+        <!--android:background="@color/button4"-->
+        <!--android:layout_below="@id/btn5"-->
+        <!--android:layout_toRightOf="@id/btn5"/>-->
+<!--</RelativeLayout>-->
+<!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:shrinkColumns="*"-->
+    <!--android:stretchColumns="*"-->
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+    <!--tools:context="dk.myandroid1.MainActivity"-->
+    <!--tools:showIn="@layout/activity_main" >-->
+
+    <!--<TableRow-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_span="3"-->
+            <!--android:background="@color/button2"-->
+            <!--android:text="@string/button1" />-->
+    <!--</TableRow>-->
+    <!--<TableRow-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/button1"-->
+            <!--android:text="@string/button2" />-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/button3"-->
+            <!--android:text="@string/button2" />-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/button4"-->
+            <!--android:text="@string/button2" />-->
+    <!--</TableRow>-->
+    <!--<TableRow-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="match_parent">-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/button4"-->
+            <!--android:text="@string/button2" />-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/button1"-->
+            <!--android:text="@string/button2" />-->
+        <!---->
+    <!--</TableRow>-->
+<!--</TableLayout>-->
+<!--<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:shrinkColumns="*"-->
+    <!--android:stretchColumns="*"-->
+    <!--app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+    <!--tools:context="dk.myandroid1.MainActivity"-->
+    <!--tools:showIn="@layout/activity_main" >-->
+
+    <!--<TableRow-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1">-->
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_span="3"-->
+            <!--android:background="@color/button2"-->
+            <!--android:text="@string/button1" />-->
+    <!--</TableRow>-->
+    <!--<TableRow-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_weight="1">-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/button4"-->
+            <!--android:text="@string/button2" />-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/button1"-->
+            <!--android:text="@string/button2" />-->
+
+    <!--</TableRow>-->
+    <!--<TableRow-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_weight="1">-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/button1"-->
+            <!--android:text="@string/button2" />-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/button4"-->
+            <!--android:text="@string/button2" />-->
+    <!--</TableRow>-->
+    <!--<TableRow-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_weight="1">-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/button4"-->
+            <!--android:text="@string/button2" />-->
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/button1"-->
+            <!--android:text="@string/button2" />-->
+    <!--</TableRow>-->
+    <!--<TableRow-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_weight="1">-->
+        <!--<Button-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_span="3"-->
+            <!--android:background="@color/button2"-->
+            <!--android:text="@string/button1" />-->
+    <!--</TableRow>-->
+<!--</TableLayout>-->
